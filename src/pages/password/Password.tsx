@@ -6,7 +6,7 @@ import { Password } from 'primereact/password';
 import { Button } from 'primereact/button';
 
 import './Password.scss';
-import Logo from '../../assets/icon.png';
+import Logo from '../../assets/logo.png';
 
 import { IUser } from '../../interfaces/IUser';
 import { resetPassword } from '../../services/user-api';

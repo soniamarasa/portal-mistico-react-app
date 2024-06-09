@@ -5,7 +5,7 @@ import { Password } from 'primereact/password';
 import { Button } from 'primereact/button';
 import './Auth.scss';
 import ImgAuth from '../../assets/svg-auth.svg';
-import Logo from '../../assets/icon.png';
+import Logo from '../../assets/logo.png';
 import { login } from '../../services/user-api';
 import { setLocalStorage } from '../../helpers/LocalStorage';
 import { RecoveryDialog } from '../../components/Dialogs/RecoveryDialog';
@@ -38,12 +38,13 @@ export const Auth = () => {
 
   return (
     <div className="grid auth-container">
-      <div className="img-auth-container col-12  md:col-5 lg:col-6">
-        <img src={ImgAuth} alt="" />
-      </div>
-      <div className="login-container col-12  md:col-7 lg:col-6">
+      <div className="login-container col-12">
+      <img src={Logo} alt="Logo Portal Místico" />
+
         <div className="login">
-          <h2> LOGIN </h2>
+
+
+          <h3> Bem-vindo ao Portal Místico. Por favor, faça seu login abaixo.</h3>
 
           <div className="card input-01">
             <label>E-mail</label>

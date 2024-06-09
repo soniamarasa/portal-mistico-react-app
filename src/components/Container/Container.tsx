@@ -17,7 +17,7 @@ import { Cards } from '../../pages/cards/Cards';
 import { CardTypes } from '../../pages/card-types/CardTypes';
 import { TarotReading } from '../../pages/tarot-reading/TarotReading';
 import { TarotReadingTypes } from '../../pages/tarot-reading-types/TarotReadingTypes';
-import { Reports } from '../../pages/reports/Reports';
+// import { Reports } from '../../pages/reports/Reports';
 import { User } from '../../pages/user/User';
 
 export const Container = () => {
@@ -106,14 +106,14 @@ export const Container = () => {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="/reports"
             element={
               <ProtectedRoute>
                 <Reports />
               </ProtectedRoute>
             }
-          />
+          /> */}
           <Route
             path="/Tarot-reading"
             element={

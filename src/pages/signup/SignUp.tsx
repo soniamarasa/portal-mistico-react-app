@@ -9,7 +9,7 @@ import { Button } from 'primereact/button';
 import { Dropdown } from 'primereact/dropdown';
 
 import './SignUp.scss';
-import Logo from '../../assets/icon.png';
+import Logo from '../../assets/logo.png';
 import { IUser } from '../../interfaces/IUser';
 
 import { createAccount } from '../../services/user-api';
